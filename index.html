@@ -12,95 +12,14 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-    <header>
-        <nav>
-            <img class="logo" src="imagens/favicon.ico" alt="Logo MasterGame">
-            <div class="minhaLogo">Master<span class="gradientGame">Game</span></div>
-            <ul class="menu">
-                <li>
-                    <span class="material-symbols-outlined">menu</span>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h1 class="jogar">VENHA JOGAR!</h1>
-        <p class="text-subt">DIGITE OS NÚMEROS PARA CALCULAR:</p>
-        <section id="jogo">
-            <div class="c1"></div>
-            <div class="c2"></div>
-            <div class="c3"></div>
-            <div id="resultado">
-                
-            </div>
-            <div id="matriz">
-                <form action="a">
-                    <input class="btl" type="number" name="" id="a1">
-                    <input class="bt" type="number" name="" id="a2">
-                    <input class="btr" type="number" name="" id="a3">
-                </form>
-                <form action="b">
-                    <input class="bl" type="number" name="" id="b1">
-                    <input type="number" name="" id="b2">
-                    <input class="br" type="number" name="" id="b3">
-                </form>
-                <form action="c">
-                    <input class="bbl" type="number" name="" id="c1">
-                    <input class="bb" type="number" name="" id="c2">
-                    <input class="bbr" type="number" name="" id="c3">
-                </form>
-            </div>
-            <div class="c4"></div>
-            <div class="c5"></div>
-            <div class="c6"></div>
-        </section>
-        <section id="btn_game">
-            <button class="calculo" onclick="matriz()">CALCULAR</button>
-        </section>
-        <section><p id="oqe">Matriz é formada por números reais, dispostos em linhas e colunas.</p>
-        </section>
-    </main>
-    <footer>
-        <img id="icon" src="imagens/icon-svg.png" alt="">
-        <p>Gabriel Ferreira   Giulia Santiago  Giullia Gentil  Letícia Almeida  João Henrique  Rafael Ferreira  Samuel Yago  Vitória Rodrigues.</p>
-    </footer>
+    <div class="popup" id="popup-1">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn" onclick="togglepopup()">&times;
+        </div>
+            <h1>title</h1>
+            <p>É um jogo onde testa seus conhecimentos sobre o conteúdo, e o estimula de forma lúdica e dinâmica a aprender o conteúdo matrizes, e confirmar se seu resultado, feito no papel, está certo, com a utilização do jogo.</p>
+        </div>
+    </div>
+    <button onclick="togglepopup()">show Popup</button>
 </body>
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

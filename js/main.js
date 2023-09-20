@@ -18,3 +18,17 @@ function matriz() {
     resultado.style.display = 'flex'
     resultado.innerHTML = `<h1 class="jogar3">Resultado</h1><h1 class="jogar2">${calcular}</h1>`
 }
+
+
+
+
+
+
+
+
+
+function togglePopup(){
+    document.getElementById("popup-1").classList.toggle("active");
+}
+
+
